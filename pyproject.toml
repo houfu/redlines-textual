@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "redlines-textual"
+version = "0.1.0"
+description = ""
+authors = ["houfu <houfu@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "redlines_textual" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+redlines = "^0.4.2"
+textual = "^0.38.0"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.1.0"
+black = "^23.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+redlines-textual = "redlines_textual.app:run"
+

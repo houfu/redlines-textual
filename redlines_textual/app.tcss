@@ -1,0 +1,34 @@
+.form_button {
+    width: 1fr;
+    height: 3;
+    margin: 1 3;
+}
+
+.action_bar{
+    max-height: 20vh;
+    min-height: 4;
+    margin-top: 1;
+    align: center middle;
+}
+
+.form_label {
+    text-style: bold italic;
+    margin-top: 1;
+}
+
+.area {
+    padding: 0 1;
+    border: heavy $accent;
+    border-title-style: bold italic;
+    border-title-background: white;
+}
+
+#results {
+    /*width: 60%;*/
+}
+
+.content {
+    content-align: left top;
+}
+
+
